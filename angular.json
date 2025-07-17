@@ -16,12 +16,7 @@
             "outputPath": "dist/angular-test-iphone",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": [
-              "zone.js",
-              "core-js/es/array",
-              "core-js/es/object",
-              "core-js/es/promise"
-            ],
+            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",

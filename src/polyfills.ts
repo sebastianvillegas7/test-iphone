@@ -1,4 +1,5 @@
-import 'zone.js';  // 👈 necesario para Angular
+import '@angular/localize/init';
+import 'zone.js';
 
 // Opcionalmente:
 import 'core-js/es/array';
