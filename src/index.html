@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +8,18 @@
   <title>AngularTestIphone</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <p style="color: green; font-size: 20px;">¿Este texto se ve en iPhone?</p>
+
   <app-root></app-root>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.body.insertAdjacentHTML('beforeend', '<p style="color: blue;">JS externo ejecutado ✅</p>');
+    });
+  </script>
+
 </body>
+
 </html>
