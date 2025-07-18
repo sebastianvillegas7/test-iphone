@@ -1,3 +1,5 @@
-last 2 versions
+last 2 Chrome versions
+last 2 Safari major versions
+ios_saf >= 12
+not IE 11
 not dead
-ios_saf >= 10
